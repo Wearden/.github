@@ -54,14 +54,6 @@ flowchart LR
 | [**ruleset**](https://github.com/Wearden/ruleset) | Benchmark content and native manifests used by the agents |
 | [**presentation**](https://github.com/Wearden/presentation) | The Wearden pitch deck ([live](https://wearden.github.io/presentation/)) |
 
-## Safe by design
-
-- **Read-only by default.** Agents only scan until remediation is enabled locally on the host.
-- **No shell, no downloaded code.** Agents never launch PowerShell or a shell and never execute command strings from the ruleset or from core.
-- **Confirmed and reversible.** A change needs an operator's confirmation, a task from core and a private backup that allows rollback.
-- **Authenticated and encrypted.** Agents use scoped, expiring enrollment tokens and HTTPS; stored credentials and API keys are encrypted with a vault key.
-- **AI stays advisory.** Only aggregated control facts are sent to a model, never host names, evidence values or credentials, and nothing is applied automatically. A local model (for example Ollama) can be used so nothing leaves your network.
-
 ## Status
 
 Wearden is under active development; the current release is **v0.1.0-rc1**. See each repository's README for build and install instructions, starting with [core](https://github.com/Wearden/core#readme).
