@@ -8,7 +8,7 @@ Wearden checks Linux and Windows hosts against reviewed benchmarks, shows every 
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-2ea043)](https://github.com/Wearden/core/blob/main/LICENSE)
 [![Go](https://img.shields.io/badge/Go-1.25-00ADD8?logo=go&logoColor=white)](https://github.com/Wearden/core)
-[![Platforms](https://img.shields.io/badge/hosts-Ubuntu%20%7C%20Windows-555)](#supported-hosts)
+![Platforms](https://img.shields.io/badge/hosts-Ubuntu%20%7C%20Windows-555)
 [![Release](https://img.shields.io/badge/release-v0.1.0--rc1-orange)](https://github.com/Wearden/core/tags)
 
 [Pitch deck](https://wearden.github.io/presentation/) · [Core](https://github.com/Wearden/core) · [Contact](mailto:contact@wearden.io)
@@ -53,15 +53,6 @@ flowchart LR
 | [**proto**](https://github.com/Wearden/proto) | JSON Schema and Go wire contracts shared by core and the agents |
 | [**ruleset**](https://github.com/Wearden/ruleset) | Benchmark content and native manifests used by the agents |
 | [**presentation**](https://github.com/Wearden/presentation) | The Wearden pitch deck ([live](https://wearden.github.io/presentation/)) |
-
-## Supported hosts
-
-| Host | Versions | Native controls |
-| --- | --- | --- |
-| Ubuntu | 22.04 LTS, 24.04 LTS | 112 and 100 |
-| Windows | 10, 11, Server 2022 | 100 each |
-
-Benchmark content is a draft, CIS-inspired ruleset. It is **not** a certified CIS assessment.
 
 ## Safe by design
 
